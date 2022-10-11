@@ -1,0 +1,56 @@
+body {
+  overflow: hidden;
+}
+
+.container {
+  margin: auto;
+  margin-top: 5vh;
+  max-width: 658px;
+  max-height: 667px;
+  background: url(table.png) center/cover no-repeat;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  padding: 2.5vmin;
+  font-weight: bold;
+}
+
+h1 {
+  display: block;
+  color: goldenrod;
+  line-height: 11.5vmin;
+  font-size: 7vmin;
+  padding: 1% 0;
+}
+
+span {
+  display: block;
+  color: rgb(217, 219, 211);
+  line-height: 6.3vmin;
+  font-size: 3.2vmin;
+}
+
+#cards-el {
+  display: block;
+  overflow: auto;
+  max-height: 30vh;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+button {
+  margin: auto;
+  display: block;
+  color: #016f32;
+  width: 32vmin;
+  background-color: goldenrod;
+  font-size: 3.2vmin;
+  line-height: 5.2vmin;
+  font-weight: bold;
+  border-radius: 0.4vmin;
+  border: none;
+  margin-top: 1.7vh;
+  margin-bottom: 1.7vh;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
